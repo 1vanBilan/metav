@@ -1,0 +1,64 @@
+@font-face {
+	font-family: 'acier';
+	src: url('../../fonts/acier-text-solid.eot');
+	src: local('☺'), url('../../fonts/acier-text-solid.woff') format('woff'), url('../../fonts/acier-text-solid.ttf') format('truetype'), url('../../fonts/acier-text-solid.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+header { 
+    display: flex;
+}
+
+.header-logo {
+    background: url('../../img/logo-bg.svg');
+    width: 272px;
+    height: 98px;
+    padding: 11px 20px 11px 20px;
+    margin-right: 313px;
+    margin-top: 18px;
+    margin-left: 53px;
+    display: inline-block;
+}
+
+.header-logo .name {
+    font-family: 'acier';
+    font-weight: 400;
+    font-size: 64px;
+    background: linear-gradient(180deg, #f7da00 16.67%, #FFD544 46.35%, #EA8034 83.85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+nav {
+    display: inline-block;
+    margin-top: 49px;
+}
+
+.nav-items li {
+    display: inline-block;
+    margin-right: 20px;
+    font-family: 'Arial';
+    font-weight: 700;
+    font-size: 20px;
+    color: #003453;
+    cursor: pointer;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #003453;
+}
+
