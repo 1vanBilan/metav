@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
 @font-face {
 	font-family: 'acier';
 	src: url('../../fonts/acier-text-solid.eot');
@@ -36,7 +38,8 @@ header {
     font-family: 'acier';
     font-weight: 400;
     font-size: 64px;
-    background: linear-gradient(180deg, #f7da00 16.67%, #FFD544 46.35%, #EA8034 83.85%);
+    -webkit-text-stroke: 2px rgba(0, 52, 83, 1);
+    background: linear-gradient(180deg, #FFFFFF 16.67%, #FFD544 46.35%, #EA8034 83.85%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -62,3 +65,122 @@ nav {
     color: #003453;
 }
 
+.banner {
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 1340px;
+    height: 500px;
+    background: #CDF7FF url('../../img/big-ban.svg') no-repeat;
+    background-position: right;
+    border-radius: 30px;
+}
+
+h1 {
+    font-family: 'acier';
+    margin-left: 38px;
+    text-transform: uppercase;
+    padding-top: 30px;
+    color: #FFFFFF;
+    text-shadow: 2px 5px 0px #000000;
+    font-size: 48px;
+    display: inline-block;
+    -webkit-text-stroke: .7px rgba(0, 52, 83, 1);
+}
+
+.banner h1 span {
+    color: #FFD544;
+}
+
+.banner h2 {
+    font-family: 'Arial';
+    margin-top: 30px;
+    margin-left: 135px;
+    font-weight: 700;
+    font-size: 36px;
+    color: #003453;
+}
+
+.banner h3 {
+    margin-left: 120px;
+    margin-top: 98px;
+    font-family: 'Arial';
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(0, 62, 112, 0.5);
+}
+
+.banner .services-btn {
+    font-family: 'Poppins';
+    padding: 11px 17px;
+    border: 3px solid #003E70;
+    box-shadow: 4px 4px 0px #003E70;
+    border-radius: 10px;
+    background: #FFFFFF;
+    margin-top: 19px;
+    cursor: pointer;
+    margin-left: 187px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #003E70;
+}
+
+.selection {
+    text-align: center;
+    margin-top: 54px;
+    font-family: 'Arial';
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 35px;
+}
+
+.buttons-section {
+    margin-left: 50px;
+}
+
+.select-button {
+    width: 309px;
+    height: 59px;
+    background: #006386;
+    border-radius: 30px 30px 0px 0px;
+    border: none;
+    margin-right: 20px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.services {
+    margin-left: 50px;
+    width: 1340px;
+    height: 600px;
+    background: linear-gradient( #009DD0 52.6%, #006386 100%);
+    padding: 45px 140px
+}
+
+.design {
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+.interior-service {
+    margin-right: 59px;
+}
+
+.service-header {
+    width: 500px;
+    height: 88px;
+    background: linear-gradient(0deg, #FFF1C9, #FFF1C9), #FFF1C9;
+    border-radius: 30px 30px 0px 0px;
+    padding-top: 24px;
+    font-weight: 400;
+    font-size: 36px;
+    color: #EA8034;
+    font-family: 'acier';
+    text-align: center;
+}
