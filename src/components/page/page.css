@@ -157,7 +157,10 @@ h1 {
     width: 1340px;
     height: 600px;
     background: linear-gradient( #009DD0 52.6%, #006386 100%);
-    padding: 45px 140px
+    padding: 45px 140px;
+    display: flex;
+    border-radius: 0px 30px 30px 30px;
+    margin-bottom: 57px;
 }
 
 .design {
@@ -183,4 +186,81 @@ h1 {
     color: #EA8034;
     font-family: 'acier';
     text-align: center;
+}
+
+.interior-content {
+    text-align: center;
+    margin-top: 163px;
+    font-family: 'Arial';
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(0, 62, 112, 0.5);
+}
+
+.exterior-content {
+    margin-top: 117px;
+    margin-left: 36px;
+    display: flex;
+    font-family: 'Arial';
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(0, 62, 112, 0.5);
+}
+
+.exterior-text{
+    margin-top: 36px;
+    margin-left: 15px;
+}
+
+.reasons h2 {
+    font-family: 'acier';
+    text-align: center;
+    font-weight: 400;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #FFD544;
+    text-shadow: 2px 4px 0px #003E70;
+    -webkit-text-stroke: 2px #003E70;
+    margin-bottom: 57px;
+}
+
+.reason-banners {
+    margin-left: 50px;
+    display: flex;
+}
+
+.reason-banner {
+    width: 400px;
+    height: 600px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(0, 99, 134, 0.25);
+    border-radius: 30px;
+    display: inline-block;
+    margin-right: 70px;
+}
+
+.reason-banner:last-child {
+    margin-right: 1px;
+}
+
+.reason-img {
+    margin: 0 50px;
+    margin-top: 98px;
+    margin-bottom: 52px;
+}
+
+.banner-title {
+    font-family: 'Arial';
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.banner-text {
+    font-family: 'Arial';
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: rgba(0, 62, 112, 0.5);
 }
